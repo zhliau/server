@@ -112,6 +112,7 @@ export class HttpServer {
                     altNames: [
                         { type: 2, value: "localhost" }, // DNS
                         { type: 7, ip: "127.0.0.1" }, // Resolving IP
+                        { type: 7, ip: this.httpConfig.backendIp },
                     ],
                 },
             ],
